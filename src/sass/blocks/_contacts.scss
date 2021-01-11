@@ -30,9 +30,10 @@
     }
     &__link {
         margin-right: 25px;
-        img {
-            max-width: 21px;
-            max-height: 21px;
+        &:hover {
+            svg path {
+                fill: $main-color;
+            }
         }
     }
     &__form {
@@ -94,5 +95,9 @@
         font-weight: bold;
         font-size: 14px;
         line-height: 21px;
+        &:hover {
+            color:  #ffffff;
+            text-decoration: none;
+        }
     }
 }
