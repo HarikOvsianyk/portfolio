@@ -48,6 +48,11 @@
         position: absolute;
         top:25px;
         right: 25px;
+        &:hover {
+            svg path {
+                fill: black;
+            }
+        }
     }
     &__list  {
         list-style-type: none;
