@@ -1,10 +1,10 @@
 .resume {
     padding-top: 120px;
     &__wrapper {
-        padding: 60px 65px 0 65px;
+        padding: 60px 0px 0 0px;
         display: grid;
         grid-template-columns: repeat(2, 425px);
-        column-gap: 135px;
+        column-gap: 285px;
 
     }
     &__column {

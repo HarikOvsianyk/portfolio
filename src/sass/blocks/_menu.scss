@@ -13,6 +13,9 @@
         width: 30px;
         height: 3px;
         background: #FFA501;
+        &:hover {
+            background: #ffffff
+        }
     }
     span.long {
         width: 36px;
@@ -48,6 +51,7 @@
         position: absolute;
         top:25px;
         right: 25px;
+        cursor: pointer;
         &:hover {
             svg path {
                 fill: black;
